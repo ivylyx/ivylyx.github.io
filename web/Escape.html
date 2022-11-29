@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape</title>
+</head>
+<style>
+    * {
+        padding:0;
+        margin:0;
+    }
+    .shell
+    {
+        height:100vh;
+        overflow-x:hidden;
+        perspective:3px;
+    }
+    .shell div{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-style: 30px;
+        letter-spacing:2px;
+    }
+    .image{
+        transform:translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height:100vh;
+        z-index:-1;
+    }
+    .text{
+        height:50vh;
+        background-color: #FFFFFF;
+    }
+    .text h1{
+        color:rgb(0, 0, 0);
+    }
+    .heading{
+        z-index:-1;
+        transform:translateY(-30vh) translateZ(1px);
+        color:#FFFFFF;
+        font-size: 30px;
+    }
+    .foot ul li{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .foot ul li a{
+        text-decoration: none;
+        color:black;
+    }
+</style>
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url('../images/2.4.jpg');"></div>
+        <div class="heading">
+            <h1>想去世界中央</h1>
+        </div>
+        <div class="text">
+            <h1>想去一睹雨林风光</h1>
+        </div>
+
+        <div class="image" style="background-image: url('../images/2.5.jpg');"></div>
+        <div class="heading">
+            <h1>想去群山之巅</h1>
+        </div>
+        <div class="text">
+            <h1>想漫步于巨木之森</h1>
+        </div>
+
+        <div class="image" style="background-image: url('../images/2.6.jpg');"></div>
+        <div class="heading">
+            <h1>想去世界的尽头</h1>
+        </div>
+        <div class="text">
+            <h1>想匿于莲池之底</h1>
+        </div>
+
+        <div class="image" style="background-image: url('../images/2.7.jpg');"></div>
+        <div class="heading">
+            <h1>你的所思所想</h1>
+        </div>
+        <div class="text">
+            <h1>都有独一无二的意义</h1>
+        </div>
+    </div>
+    <div class="foot">
+        <ul>
+            <li><a href="../index.html"><b>回到lyx的小窝</b></a></li>
+        </ul>
+    </div>
+</body>
+</html>

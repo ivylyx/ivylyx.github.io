@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape</title>
+</head>
+<style>
+    * {
+        padding:0;
+        margin:0;
+    }
+    .shell
+    {
+        height:100vh;
+        overflow-x:hidden;
+        perspective:3px;
+    }
+    .shell div{
+        position:relative;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-style: 30px;
+        letter-spacing:2px;
+    }
+    .image{
+        transform:translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height:100vh;
+        z-index:-1;
+    }
+    .text{
+        height:50vh;
+        background-color: #FFFFFF;
+    }
+    .text h1{
+        color:rgb(0, 0, 0);
+    }
+    .heading{
+        z-index:-1;
+        transform:translateY(-30vh) translateZ(1px);
+        color:#FFFFFF;
+        font-size: 30px;
+    }
+    .foot ul li{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .foot ul li a{
+        text-decoration: none;
+        color:black;
+    }
+</style>
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url('../images/1.1.png');"></div>
+        <div class="heading">
+            <h1>当你困于过往时</h1>
+        </div>
+        <div class="text">
+            <h1>当你迷茫于未来时</h1>
+        </div>
+
+        <div class="image" style="background-image: url('../images/1.2.png');"></div>
+        <div class="heading">
+            <h1>当你伤心沉沦时</h1>
+        </div>
+        <div class="text">
+            <h1>当你害怕踟蹰时</h1>
+        </div>
+
+        <div class="image" style="background-image: url('../images/1.3.png');"></div>
+        <div class="heading">
+            <h1>不要再去思考所谓的意义</h1>
+        </div>
+        <div class="text">
+            <h1>人生的意义只有你自己能赋予</h1>
+        </div>
+
+        <div class="image" style="background-image: url('../images/1.4.jpeg');"></div>
+        <div class="heading">
+            <h1>你的所思所想</h1>
+        </div>
+        <div class="text">
+            <h1>都有独一无二的意义</h1>
+        </div>
+    </div>
+    <div class="foot">
+        <ul>
+            <li><a href="../index.html"><b>回到lyx的小窝</b></a></li>
+        </ul>
+    </div>
+</body>
+</html>
